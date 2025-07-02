@@ -1,0 +1,8 @@
+streamlit
+tensorflow
+keras
+pillow
+numpy
+scikit-learn
+requests
+h5py
