@@ -9,6 +9,7 @@ def run_user_command(user_input):
     result = eval(user_input)
     return result
 
+
 def get_users(db):
     users = db.query("SELECT * FROM users")
     for user in users:
