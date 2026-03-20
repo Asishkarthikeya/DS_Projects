@@ -15,3 +15,5 @@ def get_users(db):
         orders = db.query(f"SELECT * FROM orders WHERE user_id = {user['id']}")
         user['orders'] = orders
     return users
+
+
